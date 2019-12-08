@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <title> Bike Shop </title>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" type="text/css" href="../css/style.css">
+
+        <script type="text/javascript" src="jquery-1.6.4.min.js"> </script>
+        <script type="text/javascript" src="jquery.nivo.slider.js"> </script>
+        <link rel="stylesheet" type="text/css" href="../css/nivo-slider.css" />
+        <link rel="stylesheet" type="text/css" href="../nivo_Slider/nivo-slider.css" />
+        <link rel="stylesheet" type="text/css" href="../nivo_Slider/style.css" />
+        
+    </head>
+
+
+    <body>
+                    
+            <div id="container">
+
+                <div id="logo">
+                        <img id="img-principal" src="../bike.png" alt="Logo" />
+                </div>
+
+                <div id="menu">
+                    <div class="link_menu"> <a href="#"> Início </a> </div> 
+                    <div class="link_menu"> <a href="#"> Bicicletas </a> </div> 
+                    <div class="link_menu"> <a href="#"> Acessórios </a> </div> 
+                    <div class="link_menu"> <a href="#"> Promoções </a> </div> 
+                    <div class="link_menu"> <a href="#"> Fotos </a> </div> 
+                    <div class="link_menu"> <a href="#"> Videos </a> </div> 
+                    <div class="link_menu"> <a href="#"> Contatos </a> </div> 
+                </div>
+
+                <div id="banner">
+                          <div id="caixa">
+
+                                <div class="nivo">
+                                 <img title="Titulo: imagem 1" src="../nivo_Slider/img1.jpg" />
+                                 <img title="Titulo: imagem 2" src="../nivo_Slider/img2.jpg" />
+                                 <img title="Titulo: imagem 3" src="../nivo_Slider/img3.jpg" />
+                                 <img title="Titulo: imagem 4" src="../nivo_Slider/img4.jpg"/>
+                                </div>	<!--fim da div nivo -->
+                           
+                               </div> 	<!--fim da div caixa -->
+
+
+                </div>
+
+                <div id="conteudo">
+
+                    <div id="curiosidades">
+
+                    </div>
+
+                    <div id="ofertas">
+
+                    </div>
+
+                </div>
+
+                <div id="rodape">
+                    <div id="pagamento">
+
+                    </div>
+
+                    <div id="links">
+
+                    </div>
+                    
+                </div>
+
+                    
+            </div> 
+
+            <script type="text/javascript">
+                $(document).ready(function(){
+                  $('.nivo').nivoSlider({
+                         effect:'random',
+                         controlNav:true
+                     });
+                 
+                 });
+              </script>
+
+    </body>
+
+</html>

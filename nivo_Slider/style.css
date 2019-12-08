@@ -1,0 +1,11 @@
+/*esta div serve para alinhar as imagens no centro da tela*/
+#caixa
+{
+	width: 874px;
+	margin: 50px auto;	
+}
+
+.nivo
+{
+	height: 257px;	/*correção para o Google Chrome*/
+}

@@ -1,0 +1,38 @@
+
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>JQuery Nivo Slider!</title>
+
+<script type="text/javascript" src="jquery-1.6.4.min.js"> </script>
+<script type="text/javascript" src="jquery.nivo.slider.js"> </script>
+<link rel="stylesheet" type="text/css" href="style.css" />
+<link rel="stylesheet" type="text/css" href="nivo-slider.css" />
+
+ <script type="text/javascript">
+   $(document).ready(function(){
+	 $('.nivo').nivoSlider({
+			effect:'random',
+			controlNav:true
+		});
+	
+	});
+ </script>
+	
+</head>
+
+<body>
+	<div id="caixa">
+	 <div class="nivo">
+      <img title="Titulo: imagem 1" src="img1.jpg" />
+      <img title="Titulo: imagem 2" src="img2.jpg" />
+      <img title="Titulo: imagem 3" src="img3.jpg" />
+      <img title="Titulo: imagem 4" src="img4.jpg" />
+     </div>	<!--fim da div nivo -->
+
+	</div> 	<!--fim da div caixa -->
+
+</body>
+</html>

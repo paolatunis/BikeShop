@@ -1,0 +1,66 @@
+
+#container{
+    position: relative; /*centralizar layout*/
+    margin-top: 0px; /*centralizar layout*/
+    margin-right: auto; /*centralizar layout*/
+    margin-bottom: 0px; /*centralizar layout*/
+    margin-left: auto; /*centralizar layout*/
+    width: 900px; /*comprimento da div*/
+    height: auto; /*largura da div */
+}
+
+
+#logo{
+    width: 900px;
+    height: 90px;
+    float: right;
+    display: flex;
+    background-repeat: no-repeat;
+    background-position-x: 250px;
+}
+
+#img-principal{
+    max-width:900px;
+    max-height: 90px;
+    width: auto;
+    height: auto;
+    margin-left: 95px;
+}
+
+#menu{
+    width: 900px;
+    height: 25px;
+    align-items: center;
+    /*background-color: rgb(109, 22, 44); */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Bree Serif', serif;
+    padding-top: 20px;
+}
+
+#menu div a /*todo link q tiver dentro de menu vai receber esse comando css*/ 
+{
+   font-family: 'Lato';
+   font-size: 24px;
+   color: rgb(202, 183, 183);
+   text-decoration: none;
+   margin: 10px;
+}
+
+#menu a:hover /*oq acontece quando aproxima o mouse do link*/{
+   color: black;
+}
+
+#banner{
+    width: 900px;
+    height: 330px;
+}
+
+#conteudo{
+    width: 900px;
+}
+
+#rodape{
+    width: 900px;
+}
