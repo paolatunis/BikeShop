@@ -1,0 +1,54 @@
+main {
+    display: flex;
+    flex-direction: column;
+}
+
+.listagem {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    justify-content: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.produto {
+    display: flex;
+    flex-direction: column; 
+    padding: 10px;
+    transition: all 0.2s ease-in-out;
+    position: relative;
+    margin: 10px;
+    align-items: center;
+    border: 1px solid rgb(192, 191, 191);
+    border-radius: 3px;
+}
+
+.produto:hover {
+    transform: scale(1.1)
+}
+
+.produto img {
+    width: 190px;
+    height: 179px;
+    object-fit: cover;
+}
+
+.nome-produto {
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+.preco {
+    color: rgb(46, 46, 46);
+    font-size: 18px;
+}
+
+.bt-comprar {
+    padding: 5px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    width: 100%;
+    margin-top: 10px;
+}
