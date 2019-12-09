@@ -1,0 +1,78 @@
+.main {
+    display: flex;
+    flex-direction: column;
+}
+.listagem {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    justify-content: center;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+.produto {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px;
+    transition: all 0.2s ease-in-out;
+    position: relative;
+    margin: 10px;
+    border: 1px solid rgb(192, 191, 191);
+    border-radius: 3px;
+}
+
+.tag-desconto {
+    width: 85px;
+    height: 88px;
+    overflow: hidden;
+    position: absolute;
+    top: -1px;
+    left: -1px;
+}
+
+.tag {
+    font-family: Arial;
+    font-size: 16px;
+    color: #333;
+    text-align: center;
+    -webkit-transform: rotate(-45deg);
+    -moz-transform: rotate(-45deg);
+    -ms-transform: rotate(-45deg);
+    -o-transform: rotate(-45deg);
+    position: relative;
+    padding: 7px 0;
+    top: 15px;
+    left: -30px;
+    width: 120px;
+    background-color: rgb(110, 16, 36);
+    color: #fff;
+}
+
+.produto:hover {
+    transform: scale(1.1)
+}
+
+.preco {
+    color: rgb(46, 46, 46);
+}
+
+.bt-comprar {
+    padding: 5px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    width: 100%;
+    margin-top: 10px;
+}
+
+.nome-produto {
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+.vinho-resize {
+    width: 270px;
+    height: 270px;
+}
