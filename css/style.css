@@ -1,5 +1,11 @@
 
+body {
+    font-family: 'Lato';
+    margin: 0;
+}
+
 #container{
+
     position: relative; /*centralizar layout*/
     margin-top: 0px; /*centralizar layout*/
     margin-right: auto; /*centralizar layout*/
@@ -19,12 +25,19 @@
     background-position-x: 250px;
 }
 
+.img-tamanho{
+    max-width:900px;
+    max-height: 90px;
+    width: auto;
+    height: auto;
+}
+
 #img-principal{
     max-width:900px;
     max-height: 90px;
     width: auto;
     height: auto;
-    margin-left: 95px;
+    margin-left: 90px;
 }
 
 #menu{
@@ -43,13 +56,13 @@
 {
    font-family: 'Lato';
    font-size: 24px;
-   color: rgb(202, 183, 183);
+   color: #191970;
    text-decoration: none;
    margin: 10px;
 }
 
 #menu a:hover /*oq acontece quando aproxima o mouse do link*/{
-   color: black;
+   color: #FFD700;
 }
 
 #banner{
@@ -57,10 +70,81 @@
     height: 330px;
 }
 
+.titulo{
+    font-size: 18px;
+    font-weight: bold;
+    padding-top: 1.5%;
+    padding-bottom: 2%; 
+}
+.c-texto{
+    text-align: justify;
+    padding: 1%;
+    text-indent: 8%;
+}
+
+#c-imagem img{
+    width: 70%;
+    padding: 1%;
+}
+
 #conteudo{
-    width: 900px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+}
+
+#curiosidades{
+    width: 55%;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    
+}
+
+#ofertas{
+    width: 110%;
+    display: flex;
+    height: auto;
+    flex-direction: column;
+    align-items: center;
+    
+}
+
+#ofertas img{
+    width: 25%;
+    height: 0%;
+}
+
+.imagem-desc{
+    display: flex;
+    width: 85%;
+    transition: all .2s ease-in-out;
+    border-radius: 3px;
+}
+
+.imagem-desc:hover{
+    transform: scale(1.1);
+}
+
+.imagem-desc img{
+    padding: 1.5%;
+}
+
+.descricao{
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex-direction: column;
+    font-weight: bold;
+}
+
+.preco-produto{
+    color: #363636;
+    font-size: 15px;
 }
 
 #rodape{
     width: 900px;
+    background-color: black;
 }

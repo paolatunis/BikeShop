@@ -1,89 +1,161 @@
 <!DOCTYPE html>
 
 <html>
-    <head>
-        <title> Bike Shop </title>
-        <meta charset="UTF-8">
-        <link rel="stylesheet" type="text/css" href="../css/style.css">
 
-        <script type="text/javascript" src="jquery-1.6.4.min.js"> </script>
-        <script type="text/javascript" src="jquery.nivo.slider.js"> </script>
-        <link rel="stylesheet" type="text/css" href="../css/nivo-slider.css" />
-        <link rel="stylesheet" type="text/css" href="../nivo_Slider/nivo-slider.css" />
-        <link rel="stylesheet" type="text/css" href="../nivo_Slider/style.css" />
-        
-    </head>
+<head>
+    <title> Bike Shop </title>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" type="text/css" href="../css/style.css">
+
+    <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="../css/nivo-slider.css" />
+    <link rel="stylesheet" type="text/css" href="../nivo_Slider/nivo-slider.css" />
+    <link rel="stylesheet" type="text/css" href="../nivo_Slider/style.css" />
+    <script type="text/javascript" src="../nivo_Slider/jquery-1.6.4.min.js"> </script>
+    <script type="text/javascript" src="../nivo_Slider/jquery.nivo.slider.js"> </script>
+    <script type="text/javascript">
+        $(document).ready(function () {
+            $('.nivo').nivoSlider({
+                effect: 'random',
+                controlNav: true
+            });
+
+        });
+    </script>
+</head>
+
+</head>
 
 
-    <body>
-                    
-            <div id="container">
+<body>
 
-                <div id="logo">
-                        <img id="img-principal" src="../bike.png" alt="Logo" />
+    <div id="container">
+
+        <div id="logo">
+            <img id="img-principal" src="../bike.png" alt="Logo" />
+        </div>
+
+        <div id="menu">
+            <div class="link_menu"> <a href="#"> Início </a> </div>
+            <div class="link_menu"> <a href="#"> Bicicletas </a> </div>
+            <div class="link_menu"> <a href="#"> Acessórios </a> </div>
+            <div class="link_menu"> <a href="#"> Promoções </a> </div>
+            <div class="link_menu"> <a href="#"> Fotos </a> </div>
+            <div class="link_menu"> <a href="#"> Videos </a> </div>
+            <div class="link_menu"> <a href="#"> Contatos </a> </div>
+        </div>
+
+        <div id="banner">
+
+
+            <div id="caixa">
+                <div class="nivo">
+                    <img class="img-tamanho" title="Titulo: imagem 1"
+                        src="https://static3.tcdn.com.br/img/img_prod/394779/1575483679_banner-natal.jpg" />
+                    <img class="img-tamanho" title="Titulo: imagem 2"
+                        src="https://static3.tcdn.com.br/img/img_prod/394779/1575679033_correto-banner-natal-ride-21v-.jpg" />
+                    <img class="img-tamanho" title="Titulo: imagem 3"
+                        src="https://static3.tcdn.com.br/img/img_prod/394779/1575483680_1574363109_1573477790_banner-nova-acera-27v-sem-preco.jpg" />
+                    <img class="img-tamanho" title="Titulo: imagem 4"
+                        src="https://static3.tcdn.com.br/img/img_prod/394779/1575484732_banner-natal-obstaculo1-0-2.jpg" />
                 </div>
+                <!--fim da div nivo -->
 
-                <div id="menu">
-                    <div class="link_menu"> <a href="#"> Início </a> </div> 
-                    <div class="link_menu"> <a href="#"> Bicicletas </a> </div> 
-                    <div class="link_menu"> <a href="#"> Acessórios </a> </div> 
-                    <div class="link_menu"> <a href="#"> Promoções </a> </div> 
-                    <div class="link_menu"> <a href="#"> Fotos </a> </div> 
-                    <div class="link_menu"> <a href="#"> Videos </a> </div> 
-                    <div class="link_menu"> <a href="#"> Contatos </a> </div> 
+            </div>
+            <!--fim da div caixa -->
+
+
+        </div>
+
+        <div id="conteudo">
+
+            <div id="curiosidades">
+                <div class="titulo">CURIOSIDADES</div>
+                <div class="c-texto">
+                        No mesmo espaço de um veículo motorizados cabem de 6 a 20 bicicletas.
+                        O custo de manutenção de uma bicicleta é 20 vezes menor que o de um veículo automotor.
+                        Estudos indicam que, ao triplicar o número de ciclistas nas ruas, a porcentagem de acidentes entre bicicletas e carros cai pela metade.
+                        Pedalar durante 25 minutos ou então por um percurso de 4,2 quilômetros todo dia, diminui em 50% o risco de ter doenças cardiovasculares.
+                        No mesmo espaço de um veículo motorizados cabem de 6 a 20 bicicletas.
+                        No mesmo espaço de um veículo motorizados cabem de 6 a 20 bicicletas.
+                        No mesmo espaço de um veículo motorizados cabem de 6 a 20 bicicletas.
+                </div>     
+                <div id="c-imagem">
+                        <img src="../Bicicletas.png" />
                 </div>
-
-                <div id="banner">
-                          <div id="caixa">
-
-                                <div class="nivo">
-                                 <img title="Titulo: imagem 1" src="../nivo_Slider/img1.jpg" />
-                                 <img title="Titulo: imagem 2" src="../nivo_Slider/img2.jpg" />
-                                 <img title="Titulo: imagem 3" src="../nivo_Slider/img3.jpg" />
-                                 <img title="Titulo: imagem 4" src="../nivo_Slider/img4.jpg"/>
-                                </div>	<!--fim da div nivo -->
-                           
-                               </div> 	<!--fim da div caixa -->
+                
+            </div>
 
 
-                </div>
-
-                <div id="conteudo">
-
-                    <div id="curiosidades">
-
-                    </div>
+            <div id="pai-ofertas">
 
                     <div id="ofertas">
+                            <div class="titulo">OFERTAS</div>
+        
+                            <div class="imagem-desc">
+                                    <img src="../bike-1.jpg" />
+                                    <div class="descricao">
+                                        <div class="nome-produto">BICICLETA GTS ARO 16</div>
+                                        <div class="preco-produto">R$859,99</div>
+                                    </div>
+                                </div>
+                
+                                <div class="imagem-desc">
+                                    <img src="../bike-3.jpg" />
+                                    <div class="descricao">
+                                        <div class="nome-produto">BICICLETA GTS ARO 29</div>
+                                        <div class="preco-produto">R$829,00</div>
+                                    </div>
+                                </div>
+                
+                                <div class="imagem-desc">
+                                    <img src="../bike-2.jpg" />
+                                    <div class="descricao">
+                                        <div class="nome-produto">BICICLETA GTS ARO 26</div>
+                                        <div class="preco-produto">R$899,99</div>
+                                    </div>
+                                </div>
 
+                                <div class="imagem-desc">
+                                        <img src="../bike-4.jpg" />
+                                        <div class="descricao">
+                                            <div class="nome-produto">BICICLETA GTS ARO 18</div>
+                                            <div class="preco-produto">R$715,00</div>
+                                        </div>
+                                    </div>
+
+                                    <div class="imagem-desc">
+                                            <img src="../bike-5.jpg" />
+                                            <div class="descricao">
+                                                <div class="nome-produto">BICICLETA GTS ARO 26</div>
+                                                <div class="preco-produto">R$799,99</div>
+                                            </div>
+                                        </div>
+    
+        
                     </div>
 
-                </div>
+            </div>
+            
 
-                <div id="rodape">
-                    <div id="pagamento">
+        </div>
 
-                    </div>
+        <div id="rodape">
+            <div id="pagamento">
 
-                    <div id="links">
+            </div>
 
-                    </div>
-                    
-                </div>
+            <div id="links">
 
-                    
-            </div> 
+            </div>
 
-            <script type="text/javascript">
-                $(document).ready(function(){
-                  $('.nivo').nivoSlider({
-                         effect:'random',
-                         controlNav:true
-                     });
-                 
-                 });
-              </script>
+        </div>
 
-    </body>
+
+    </div>
+
+
+
+</body>
 
 </html>
