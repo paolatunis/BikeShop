@@ -13,6 +13,7 @@ body {
     margin-left: auto; /*centralizar layout*/
     width: 900px; /*comprimento da div*/
     height: auto; /*largura da div */
+    background-color: white;
 }
 
 
@@ -142,9 +143,4 @@ body {
 .preco-produto{
     color: #363636;
     font-size: 15px;
-}
-
-#rodape{
-    width: 900px;
-    background-color: black;
 }
