@@ -62,8 +62,8 @@
 
 
 h3 {
-    color: white;
-    font-size: 14px;
+    color: white !important;
+    font-size: 14px !important;
     padding: 10px;
     font-weight: normal;
 }
